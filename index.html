@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ODS Quiz — Neon Wasteland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="bg">
+    <div class="grid"></div>
+    <div class="scanline"></div>
+    <canvas id="particles"></canvas>
+  </div>
+
+  <main class="game-shell">
+    <header class="hud">
+      <div class="brand">
+        <img src="./assets/leaf_skull.svg" alt="logo" class="logo" />
+        <div class="title">
+          <h1>Neon Wasteland</h1>
+          <span class="subtitle">Quiz ODS — Futuro em Ruínas</span>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <img src="./assets/star.svg" alt="score" />
+          <span id="score">0</span>
+        </div>
+        <div class="stat">
+          <img src="./assets/bolt.svg" alt="combo" />
+          <span id="combo">x1</span>
+        </div>
+        <div class="stat lives">
+          <img src="./assets/heart.svg" alt="vidas" />
+          <span id="lives">3</span>
+        </div>
+      </div>
+      <div class="progress-wrap">
+        <div id="progress"><span id="progress-bar"></span></div>
+        <span id="progress-label">0%</span>
+      </div>
+    </header>
+
+    <section class="stage">
+      <!-- Painel da esquerda - Pergunta -->
+      <div class="card question-card">
+        <div class="card-header">
+          <div class="timer"><span id="timer">15</span>s</div>
+          <div class="powerups">
+            <button id="hintBtn" class="chip" title="Dica">
+              <img src="./assets/hint.svg" alt="" /> Dica
+            </button>
+            <button id="shieldBtn" class="chip" title="Escudo">
+              <img src="./assets/shield.svg" alt="" /> Escudo
+            </button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 id="question">Carregando...</h2>
+          <ul id="options" class="options"></ul>
+        </div>
+      </div>
+
+      <!-- Painel da direita - Feedback/Mensagens -->
+      <div class="scene">
+        <div class="scene-content" id="sceneContent">
+          <div class="feedback-message" id="feedbackMessage">
+            <h3 id="feedbackTitle">Bem-vindo ao Neon Wasteland</h3>
+            <p id="feedbackText">Teste seus conhecimentos sobre desenvolvimento web e ajude a salvar o mundo!</p>
+          </div>
+          <!-- Game Over Overlay -->
+          <div class="game-over-overlay" id="gameOverOverlay" style="display: none;">
+            <div class="game-over-content">
+              <h2>GAME OVER</h2>
+              <p>Suas vidas acabaram! O mundo precisa de mais conhecimento.</p>
+              <div class="final-stats">
+                <p>Pontuação Final: <span id="finalScore">0</span></p>
+                <p>Máximo Combo: <span id="finalCombo">x1</span></p>
+              </div>
+              <div class="game-over-buttons">
+                <button id="restartGameBtn" class="primary">Recomeçar Jogo</button>
+                <button id="mainMenuBtn" class="secondary">Voltar ao Menu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scene-overlay">
+          <div class="scene-label" id="sceneLabel">Setor: 01 — Água Limpa & Saneamento</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <button id="startBtn" class="primary">Iniciar</button>
+      <button id="nextBtn" class="secondary" disabled>Próxima</button>
+      <button id="restartBtn" class="ghost" style="display:none">Reiniciar</button>
+    </footer>
+  </main>
+
+  <script src="./game.js"></script>
+</body>
+</html>

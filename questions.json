@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "Qual é a função principal do HTML em uma página web?",
+    "options": ["Estilizar o conteúdo", "Adicionar interatividade", "Estruturar o conteúdo", "Criar banco de dados"],
+    "answer": "Estruturar o conteúdo",
+    "ods": "Educação de qualidade"
+  },
+  {
+    "id": 2,
+    "question": "Qual tag HTML é usada para criar um link?",
+    "options": ["<link>", "<a>", "<href>", "<url>"],
+    "answer": "<a>",
+    "ods": "Indústria, inovação e infraestrutura"
+  },
+  {
+    "id": 3,
+    "question": "Qual propriedade CSS altera o tamanho da fonte?",
+    "options": ["font-size", "text-size", "size", "font-style"],
+    "answer": "font-size",
+    "ods": "Trabalho decente e crescimento econômico"
+  },
+  {
+    "id": 4,
+    "question": "Qual linguagem é usada para manipular o DOM?",
+    "options": ["HTML", "CSS", "JavaScript", "SQL"],
+    "answer": "JavaScript",
+    "ods": "Cidades e comunidades sustentáveis"
+  },
+  {
+    "id": 5,
+    "question": "Qual atributo HTML define o caminho de uma imagem?",
+    "options": ["src", "href", "path", "link"],
+    "answer": "src",
+    "ods": "Consumo e produção responsáveis"
+  },
+  {
+    "id": 6,
+    "question": "Qual elemento HTML5 é usado para agrupar conteúdo relacionado?",
+    "options": ["<div>", "<section>", "<span>", "<group>"],
+    "answer": "<section>",
+    "ods": "Redução das desigualdades"
+  },
+  {
+    "id": 7,
+    "question": "Qual tag HTML é usada para criar um campo de entrada de texto?",
+    "options": ["<input>", "<textarea>", "<form>", "<text>"],
+    "answer": "<input>",
+    "ods": "Saúde e bem-estar"
+  },
+  {
+    "id": 8,
+    "question": "Qual atributo do <input> torna o campo obrigatório?",
+    "options": ["required", "mandatory", "validate", "obligatory"],
+    "answer": "required",
+    "ods": "Igualdade de gênero"
+  },
+  {
+    "id": 9,
+    "question": "Qual framework facilita a criação de layouts responsivos?",
+    "options": ["Bootstrap", "React", "Vue", "Angular"],
+    "answer": "Bootstrap",
+    "ods": "Energia limpa e acessível"
+  },
+  {
+    "id": 10,
+    "question": "Qual função JavaScript exibe uma mensagem ao usuário?",
+    "options": ["alert()", "console.log()", "prompt()", "message()"],
+    "answer": "alert()",
+    "ods": "Paz, justiça e instituições eficazes"
+  },
+  {
+    "id": 11,
+    "question": "Qual elemento HTML é usado para criar uma lista ordenada?",
+    "options": ["<ul>", "<ol>", "<li>", "<list>"],
+    "answer": "<ol>",
+    "ods": "Fome zero e agricultura sustentável"
+  },
+  {
+    "id": 12,
+    "question": "Qual propriedade CSS define a cor de fundo de um elemento?",
+    "options": ["color", "background-color", "fill", "bg"],
+    "answer": "background-color",
+    "ods": "Ação contra a mudança global do clima"
+  },
+  {
+    "id": 13,
+    "question": "Qual tag HTML é usada para criar um botão?",
+    "options": ["<button>", "<input type='submit'>", "<click>", "<btn>"],
+    "answer": "<button>",
+    "ods": "Água potável e saneamento"
+  },
+  {
+    "id": 14,
+    "question": "Qual atributo HTML define o tipo de um campo de formulário?",
+    "options": ["type", "form-type", "input-type", "field"],
+    "answer": "type",
+    "ods": "Parcerias e meios de implementação"
+  },
+  {
+    "id": 15,
+    "question": "Qual função JavaScript é usada para repetir uma ação várias vezes?",
+    "options": ["loop()", "repeat()", "for()", "cycle()"],
+    "answer": "for()",
+    "ods": "Trabalho decente e crescimento econômico"
+  },
+  {
+    "id": 16,
+    "question": "Qual tag HTML é usada para definir cabeçalhos?",
+    "options": ["<head>", "<header>", "<h1> a <h6>", "<title>"],
+    "answer": "<h1> a <h6>",
+    "ods": "Educação de qualidade"
+  },
+  {
+    "id": 17,
+    "question": "Qual propriedade CSS é usada para centralizar texto?",
+    "options": ["text-align", "align", "center", "justify"],
+    "answer": "text-align",
+    "ods": "Redução das desigualdades"
+  },
+  {
+    "id": 18,
+    "question": "Qual função JavaScript é usada para capturar entrada do usuário?",
+    "options": ["alert()", "prompt()", "input()", "get()"],
+    "answer": "prompt()",
+    "ods": "Saúde e bem-estar"
+  },
+  {
+    "id": 19,
+    "question": "Qual tag HTML é usada para criar uma tabela?",
+    "options": ["<table>", "<grid>", "<layout>", "<tab>"],
+    "answer": "<table>",
+    "ods": "Erradicação da pobreza"
+  },
+  {
+    "id": 20,
+    "question": "Qual atributo HTML define o texto alternativo de uma imagem?",
+    "options": ["alt", "title", "description", "caption"],
+    "answer": "alt",
+    "ods": "Consumo e produção responsáveis"
+  },
+  {
+    "id": 21,
+    "question": "Qual propriedade CSS define a borda de um elemento?",
+    "options": ["border", "outline", "frame", "edge"],
+    "answer": "border",
+    "ods": "Indústria, inovação e infraestrutura"
+  },
+  {
+    "id": 22,
+    "question": "Qual tag HTML é usada para agrupar elementos de formulário?",
+    "options": ["<fieldset>", "<group>", "<formset>", "<container>"],
+    "answer": "<fieldset>",
+    "ods": "Igualdade de gênero"
+  },
+  {
+    "id": 23,
+    "question": "Qual função JavaScript é usada para verificar condições?",
+    "options": ["if()", "check()", "verify()", "condition()"],
+    "answer": "if()",
+    "ods": "Paz, justiça e instituições eficazes"
+  },
+  {
+    "id": 24,
+    "question": "Qual tag HTML é usada para definir metadados da página?",
+    "options": ["<meta>", "<data>", "<info>", "<head>"],
+    "answer": "<meta>",
+    "ods": "Parcerias e meios de implementação"
+  },
+  {
+    "id": 25,
+    "question": "Qual propriedade CSS define o espaçamento interno de um elemento?",
+    "options": ["margin", "padding", "spacing", "indent"],
+    "answer": "padding",
+    "ods": "Cidades e comunidades sustentáveis"
+  }
+]
